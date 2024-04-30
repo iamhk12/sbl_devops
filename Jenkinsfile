@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/iamhk12/sbl_devops'
+                git branch: 'main', url: 'https://github.com/iamhk12/sbl_devops.git'
             }
         }
         
